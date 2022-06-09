@@ -1,0 +1,15 @@
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Domain.deps.json
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Domain.dll
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Domain.pdb
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.dll
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Application.Contracts.pdb
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.AssemblyReference.cache
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.AssemblyInfoInputs.cache
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.AssemblyInfo.cs
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CoreCompileInputs.cache
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CopyComplete
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.dll
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\refint\MB.Domain.dll
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.pdb
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Domain\obj\Debug\net5.0\ref\MB.Domain.dll

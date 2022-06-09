@@ -1,0 +1,12 @@
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.deps.json
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.dll
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\bin\Debug\net5.0\MB.Application.Contracts.pdb
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.csproj.AssemblyReference.cache
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.AssemblyInfoInputs.cache
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.AssemblyInfo.cs
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.dll
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\refint\MB.Application.Contracts.dll
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\MB.Application.Contracts.pdb
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Application.Contracts\obj\Debug\net5.0\ref\MB.Application.Contracts.dll
