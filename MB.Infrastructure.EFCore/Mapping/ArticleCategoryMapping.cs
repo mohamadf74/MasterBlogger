@@ -15,6 +15,7 @@ namespace MB.Infrastructure.EFCore.Mapping
         {
             builder.ToTable("ArticleCategories");
             builder.HasKey(x => x.Id);
+            builder.HasMany(x => x.Articles).WithOne(x => x.ArticleCategory).HasForeignKey(x => x.ArticleCategoryId);
         }
     }
 }

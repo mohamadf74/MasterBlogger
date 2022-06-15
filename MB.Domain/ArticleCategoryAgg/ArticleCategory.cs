@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MB.Domain.ArticleAgg;
 using MB.Domain.ArticleCategoryAgg.Services;
 
 namespace MB.Domain.ArticleCategoryAgg
@@ -23,13 +24,14 @@ namespace MB.Domain.ArticleCategoryAgg
             Title = title;
             IsDeleted = false;
             CreationDate=DateTime.Now;
+            Articles = new List<Article>();
         }
 
         public long Id { get; set; }
         public string Title { get; set; }
         public DateTime CreationDate { get; set; }
         public bool IsDeleted { get; set; }
-
+        public List<Article> Articles { get; set; }
 
         public void Edit(string Name)
         {
