@@ -20,15 +20,7 @@ namespace MB.Application
 
         public List<ArticleViewModel> GetAll()
         {
-            var Articles=_articleRepository.GetAll();
-            return Articles.Select(x => new ArticleViewModel
-            {
-                Id = x.Id,
-                Content = x.Content,
-                Image = x.Image,
-                ShortDescription = x.ShortDescription,
-                CreationDate = x.CreationDate.ToString()
-            }).ToList();
+            return _articleRepository.GetAll();
         }
     }
 

@@ -88,3 +88,4 @@ E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger
 E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Presentation.RazorPage\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Presentation.RazorPage\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\ArticleCategoryCreate.cshtml.g.cs
 E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Presentation.RazorPage\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleCategoryManagement\ArticleCategoryEdit.cshtml.g.cs
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Presentation.RazorPage\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\ArticleList.cshtml.g.cs

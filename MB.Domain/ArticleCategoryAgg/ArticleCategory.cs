@@ -10,11 +10,9 @@ namespace MB.Domain.ArticleCategoryAgg
 {
     public class ArticleCategory
     {
-        public ArticleCategory(string title)
+        protected ArticleCategory()
         {
-            Title = title;
-            IsDeleted = false;
-            CreationDate = DateTime.Now;
+      
         }
 
         public ArticleCategory(string title,IArticleCategoryValidateService Services)
