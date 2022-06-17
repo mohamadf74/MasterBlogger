@@ -22,6 +22,13 @@ namespace MB.Application
         {
             return _articleRepository.GetAll();
         }
+
+        public void Create(CreateArticleModel model)
+        {
+            var article = new Article(model.Title, model.Content, model.ShortDescription, model.Image,
+                model.CategoryId);
+            _articleRepository.Create(article);
+        }
     }
 
 

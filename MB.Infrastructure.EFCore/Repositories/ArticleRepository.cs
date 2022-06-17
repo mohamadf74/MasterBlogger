@@ -29,5 +29,19 @@ namespace MB.Infrastructure.EFCore.Repositories
                 CreationDate = x.CreationDate.ToString(),
             }).ToList();
         }
+
+        public void Create(Article model)
+        {
+            _context.Articles.Add(model);
+            SaveChanges();
+            
+
+        }
+
+
+        public void SaveChanges()
+        {
+            _context.SaveChanges();
+        }
     }
 }
