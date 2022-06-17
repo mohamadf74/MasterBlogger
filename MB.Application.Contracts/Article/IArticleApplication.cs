@@ -13,5 +13,8 @@ namespace MB.Application.Contracts.Article
         void Edit(EditArticleModel model);
 
         EditArticleModel GetById(long id);
+
+        void Remove(long id);
+        void Restore(long id);
     }
 }

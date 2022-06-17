@@ -21,5 +21,18 @@ namespace MB.Presentation.RazorPage.Areas.Administrator.Pages.ArticleManagement
         {
             Articles = _articleApplication.GetAll();
         }
+
+        public RedirectToPageResult OnPostRemove(long id)
+        {
+            _articleApplication.Remove(id);
+           return RedirectToPage("./ArticleList");
+
+        }
+
+        public RedirectToPageResult OnPostRestore(long id)
+        {
+            _articleApplication.Restore(id);
+            return RedirectToPage("./ArticleList");
+        }
     }
 }
