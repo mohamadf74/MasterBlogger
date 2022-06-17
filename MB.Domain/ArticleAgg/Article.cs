@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MB.Domain.ArticleAgg.Services;
 using MB.Domain.ArticleCategoryAgg;
 
 namespace MB.Domain.ArticleAgg
@@ -20,8 +21,10 @@ namespace MB.Domain.ArticleAgg
         public long ArticleCategoryId { get; private set; }
         public ArticleCategory ArticleCategory { get; private set; }
 
-        public Article(string title,string content, string shortDescription, string image,long articleCategoryId)
+        public Article(string title,string content, string shortDescription, string image,long articleCategoryId,IArticleValidateService services)
         {
+            services.CheckThatThisRecordAlreadyExists(title);
+            Validate(title, articleCategoryId);
             Title = title;
             CreationDate=DateTime.Now;
             Content = content;
@@ -31,8 +34,12 @@ namespace MB.Domain.ArticleAgg
             ArticleCategoryId= articleCategoryId;
         }
 
-        public void Edit(string title, string content, string shortDescription, string image, long articleCategoryId)
+
+
+        public void Edit(string title, string content, string shortDescription, string image, long articleCategoryId,IArticleValidateService services)
         {
+            services.CheckThatThisRecordAlreadyExists(title);
+            Validate(title,articleCategoryId);
             Title= title;
             Content= content;
             ShortDescription= shortDescription;
@@ -51,6 +58,18 @@ namespace MB.Domain.ArticleAgg
             IsDeleted = false;
         }
 
+        private static void Validate(string title, long articleCategoryId)
+        {
+            if (string.IsNullOrWhiteSpace(title))
+            {
+                throw new ArgumentNullException();
+            }
+
+            if (articleCategoryId == 0)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+        }
         protected Article()
         {
             

@@ -54,7 +54,7 @@ namespace MB.Application
         public void Edit(EditArticleCategoryModel model)
         {
             var articleCategory = _articleCategoryRepository.GetById(model.Id);
-            articleCategory.Edit(model.Name);
+            articleCategory.Edit(model.Name,_articleCategoryValidateService);
             _articleCategoryRepository.SaveChanges();
         }
 

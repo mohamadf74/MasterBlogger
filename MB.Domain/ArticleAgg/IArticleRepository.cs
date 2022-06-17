@@ -10,5 +10,7 @@ namespace MB.Domain.ArticleAgg
         void SaveChanges();
 
         Article GetById (long id);
+
+        bool IsExist(string title);
     }
 }

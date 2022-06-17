@@ -31,8 +31,9 @@ namespace MB.Domain.ArticleCategoryAgg
         public bool IsDeleted { get; set; }
         public List<Article> Articles { get; set; }
 
-        public void Edit(string Name)
+        public void Edit(string Name,IArticleCategoryValidateService services)
         {
+            services.CheckThatThisRecordAlreadyExists(Name);
             GuardAgainstEmptyTitle(Name);
             Title = Name;
         }

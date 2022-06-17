@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MB.Application.Contracts.Article;
 using MB.Domain.ArticleAgg;
+using MB.Domain.ArticleAgg.Services;
 using MB.Domain.ArticleCategoryAgg;
 
 namespace MB.Application
@@ -12,10 +13,12 @@ namespace MB.Application
     public class ArticleApplication:IArticleApplication
     {
         private readonly IArticleRepository _articleRepository;
+        private readonly IArticleValidateService _articleValidateService;
 
-        public ArticleApplication(IArticleRepository articleRepository)
+        public ArticleApplication(IArticleRepository articleRepository, IArticleValidateService articleValidateService)
         {
             _articleRepository = articleRepository;
+            _articleValidateService = articleValidateService;
         }
 
         public List<ArticleViewModel> GetAll()
@@ -26,14 +29,14 @@ namespace MB.Application
         public void Create(CreateArticleModel model)
         {
             var article = new Article(model.Title, model.Content, model.ShortDescription, model.Image,
-                model.CategoryId);
+                model.CategoryId,_articleValidateService);
             _articleRepository.Create(article);
         }
 
         public void Edit(EditArticleModel model)
         {
             var article = _articleRepository.GetById(model.Id);
-            article.Edit(model.Title,model.Content,model.ShortDescription,model.Image,model.CategoryId);
+            article.Edit(model.Title,model.Content,model.ShortDescription,model.Image,model.CategoryId,_articleValidateService);
             _articleRepository.SaveChanges();
 
         }
