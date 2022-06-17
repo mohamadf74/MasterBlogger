@@ -8,5 +8,7 @@ namespace MB.Domain.ArticleAgg
         List<ArticleViewModel> GetAll();
         void Create (Article model);
         void SaveChanges();
+
+        Article GetById (long id);
     }
 }

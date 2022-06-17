@@ -29,6 +29,28 @@ namespace MB.Application
                 model.CategoryId);
             _articleRepository.Create(article);
         }
+
+        public void Edit(EditArticleModel model)
+        {
+            var article = _articleRepository.GetById(model.Id);
+            article.Edit(model.Title,model.Content,model.ShortDescription,model.Image,model.CategoryId);
+            _articleRepository.SaveChanges();
+
+        }
+
+        public EditArticleModel GetById(long id)
+        {
+           var article= _articleRepository.GetById(id);
+           return new EditArticleModel
+           {
+               Id = article.Id,
+               Title = article.Title,
+               Content = article.Content,
+               ShortDescription = article.ShortDescription,
+               Image = article.Image,
+               CategoryId = article.ArticleCategoryId
+           };
+        }
     }
 
 

@@ -31,6 +31,15 @@ namespace MB.Domain.ArticleAgg
             ArticleCategoryId= articleCategoryId;
         }
 
+        public void Edit(string title, string content, string shortDescription, string image, long articleCategoryId)
+        {
+            Title= title;
+            Content= content;
+            ShortDescription= shortDescription;
+            Image= image;
+            ArticleCategoryId=articleCategoryId;
+        }
+
         protected Article()
         {
             

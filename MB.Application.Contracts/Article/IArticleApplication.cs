@@ -10,5 +10,8 @@ namespace MB.Application.Contracts.Article
     {
         List<ArticleViewModel> GetAll();
         void Create(CreateArticleModel model);
+        void Edit(EditArticleModel model);
+
+        EditArticleModel GetById(long id);
     }
 }
