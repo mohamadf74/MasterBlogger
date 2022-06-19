@@ -9,16 +9,16 @@
     <div class="container">
         <div class="post-single">
             <div class="post-thumbnail">
-                <img src="https://localhost:44372/img/blog-3.jpg" alt="منسیمنزسن" title="سیسیسی" class="img-fluid">
+                <img src="@Model.Article.Image" alt="@Model.Article.Title" title="@Model.Article.Title" class="img-fluid">
             </div>
             <div class="post-details">
                 <div class="post-meta d-flex justify-content-between">
                     <div class="category">
-                        <a href="#">نام کتگوری</a>
+                        <a href="#">@Model.Article.ArticleCategory</a>
                     </div>
                 </div>
                 <h1>
-                    عنوان کتگوری
+                    @Model.Article.Title
                     <a href="#">
                         <i class="fa fa-bookmark-o"></i>
                     </a>
@@ -26,21 +26,21 @@
                 <div class="post-footer d-flex align-items-center flex-column flex-sm-row">
                     <div class="d-flex align-items-center flex-wrap">
                         <div class="date">
-                            <i class="icon-clock"></i> زمان کتگوری</div>
+                            <i class="icon-clock"></i> @Model.Article.CreationDate</div>
                         <div class="comments meta-last"><i class="icon-comment"></i>12</div>
                     </div>
                 </div>
                 <div class="post-body">
                     <p>
-                        توضیحات کتگوری
+                        @Model.Article.ShortDescription
                     </p>
-                    محتوای کتگوری
+                    @Model.Article.Content
                 </div>
 
 
                 <div class="post-comments">
                     <header>
-                        <h3 class="h6">Post Comments<span class="no-of-comments">(تعداد نظرات)</span></h3>
+                        <h3 class="h6">Post Comments<span class="no-of-comments">(12)</span></h3>
                     </header>
 @*                    @foreach (var comment in Model.Article.Comments)
                     {

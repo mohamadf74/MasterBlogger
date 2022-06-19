@@ -19,3 +19,5 @@ E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger
 E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net5.0\refint\MB.Infrastructure.Core.dll
 E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net5.0\MB.Infrastructure.Core.pdb
 E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Infrastructure.Core\obj\Debug\net5.0\ref\MB.Infrastructure.Core.dll
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Infrastructure.Core\bin\Debug\net5.0\MB.Infrastructure.Query.dll
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Infrastructure.Core\bin\Debug\net5.0\MB.Infrastructure.Query.pdb
