@@ -12,5 +12,7 @@ namespace MB.Application.Contracts.Comment
         void Confirm(long id);
         void Cancel(long id);
         List<ViewCommentModel> GetComments();
+
+        
     }
 }

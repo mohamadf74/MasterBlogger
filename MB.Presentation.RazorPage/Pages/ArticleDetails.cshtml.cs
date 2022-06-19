@@ -13,6 +13,7 @@ namespace MB.Presentation.RazorPage.Pages
         
         private readonly IArticleQuery _query;
         private readonly ICommentApplication _commentApplication;
+        
         public ArticleQueryView Article { get; set; }
 
         public ArticleDetailsModel(IArticleQuery query, ICommentApplication commentApplication)
@@ -24,6 +25,7 @@ namespace MB.Presentation.RazorPage.Pages
         public void OnGet(long id)
         {
             Article = _query.Get(id);
+            
 
         }
 
