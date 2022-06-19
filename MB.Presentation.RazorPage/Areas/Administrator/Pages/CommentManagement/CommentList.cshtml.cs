@@ -19,5 +19,17 @@ namespace MB.Presentation.RazorPage.Areas.Administrator.Pages.CommentManagement
         {
             Comments = _commentApplication.GetComments();
         }
+
+        public IActionResult OnPostConfirm(long id)
+        {
+            _commentApplication.Confirm(id);
+            return RedirectToPage("./CommentList");
+        }
+
+        public IActionResult OnPostCancel(long id)
+        {
+            _commentApplication.Cancel(id);
+            return RedirectToPage("./CommentList");
+        }
     }
 }

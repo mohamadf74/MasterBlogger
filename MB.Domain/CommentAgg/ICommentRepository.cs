@@ -11,7 +11,7 @@ namespace MB.Domain.CommentAgg
         void Create(Comment entity);
 
         List<Comment> GetComments();
-
+        Comment GetById(long id);
         void SaveChanges();
     }
 }

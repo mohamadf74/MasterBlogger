@@ -9,7 +9,8 @@ namespace MB.Application.Contracts.Comment
     public interface ICommentApplication
     {
         void Create(AddCommentModel command);
-
+        void Confirm(long id);
+        void Cancel(long id);
         List<ViewCommentModel> GetComments();
     }
 }

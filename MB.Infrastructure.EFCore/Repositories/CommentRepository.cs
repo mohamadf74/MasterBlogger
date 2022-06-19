@@ -30,6 +30,11 @@ namespace MB.Infrastructure.EFCore.Repositories
 
         }
 
+        public Comment GetById(long id)
+        {
+           return _context.Comments.FirstOrDefault(x => x.Id == id);
+        }
+
         public void SaveChanges()
         {
             _context.SaveChanges();
