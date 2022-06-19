@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MB.Domain.ArticleAgg.Services;
 using MB.Domain.ArticleCategoryAgg;
+using MB.Domain.CommentAgg;
 
 namespace MB.Domain.ArticleAgg
 {
@@ -20,6 +21,9 @@ namespace MB.Domain.ArticleAgg
 
         public long ArticleCategoryId { get; private set; }
         public ArticleCategory ArticleCategory { get; private set; }
+
+        public long CommentId { get; set; }
+        public List<Comment> Comments { get; set; }
 
         public Article(string title,string content, string shortDescription, string image,long articleCategoryId,IArticleValidateService services)
         {
