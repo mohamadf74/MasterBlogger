@@ -93,3 +93,4 @@ E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger
 E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Presentation.RazorPage\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\ArticleManagement\ArticleEdit.cshtml.g.cs
 E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Presentation.RazorPage\bin\Debug\net5.0\MB.Infrastructure.Query.dll
 E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Presentation.RazorPage\bin\Debug\net5.0\MB.Infrastructure.Query.pdb
+E:\Learn programming\web\atriya\asp core 5\Exercise\09-Master Blog\MasterBlogger\MB.Presentation.RazorPage\obj\Debug\net5.0\Razor\Areas\Administrator\Pages\CommentManagement\CommentList.cshtml.g.cs

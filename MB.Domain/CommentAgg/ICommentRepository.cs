@@ -10,6 +10,8 @@ namespace MB.Domain.CommentAgg
     {
         void Create(Comment entity);
 
+        List<Comment> GetComments();
+
         void SaveChanges();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,20 @@ namespace MB.Application
         {
             var comment = new Comment(command.Name, command.Email, command.Message, command.ArticleId);
             _repository.Create(comment);
+        }
+
+        public List<ViewCommentModel> GetComments()
+        {
+            return _repository.GetComments().Select(x => new ViewCommentModel
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Message = x.Message,
+                Article = x.Article.Title,
+                Email = x.Email,
+                Status = x.Status,
+                CreationDate = x.CreationDate.ToString(CultureInfo.InvariantCulture)
+            }).ToList();
         }
     }
 }

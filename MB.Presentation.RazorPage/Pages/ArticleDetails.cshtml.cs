@@ -1,4 +1,5 @@
 ﻿
+using System.Collections.Generic;
 using MB.Application.Contracts.Comment;
 using MB.Infrastructure.Query;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +14,7 @@ namespace MB.Presentation.RazorPage.Pages
         private readonly IArticleQuery _query;
         private readonly ICommentApplication _commentApplication;
         public ArticleQueryView Article { get; set; }
+
         public ArticleDetailsModel(IArticleQuery query, ICommentApplication commentApplication)
         {
             _query = query;
@@ -22,6 +24,7 @@ namespace MB.Presentation.RazorPage.Pages
         public void OnGet(long id)
         {
             Article = _query.Get(id);
+
         }
 
         public IActionResult OnPost(AddCommentModel command)
